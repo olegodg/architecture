@@ -16,6 +16,6 @@ public class Cart {
         for (Product p : products) {
             totalPrice += p.getPrice();
         }
-        return totalPrice;
+        return totalPrice;/////
     }
 }
